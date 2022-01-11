@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manchester United</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <div class="container header__container">
+        <nav id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="nav__list" id="menu">
+            <li class="nav__list-item is-active">
+              <a class="nav__list-link" href="./index.html">Main</a>
+            </li>
+            <li class="nav__list-item dropdown">
+              <a class="nav__list-link dropbtn" href="">Matches</a>
+              <div class="dropdown-content">
+                <a href="#">Calendar of Matches</a>
+                <a href="#">Next game</a>
+                <a href="#">Raitings</a>
+              </div>
+            </li>
+
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">News</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="./fans.html">Fans</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Contacts</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__list-link" href="">Admin</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="./index.html">
+          <img
+            class="logo__img"
+            src="./css/img/png-transparent-manchester-united-logo-food-text-sport.png"
+            alt="logo"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <section class="container">
+        <h1 class="fans__title">Appeal of fans</h1>
+        <div class="fans__comment">
+          <p class="fans__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo
+            incidunt dolores consequatur maiores possimus explicabo vero ipsa
+            autem harum quos molestias, minus rerum animi maxime non nesciunt
+            quasi odit!
+          </p>
+
+          <div class="fans__comment-info">
+            <span>21.12.2021 12:21</span><span>RandomFanName</span>
+          </div>
+        </div>
+        <div class="fans__comment">
+          <p class="fans__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nemo
+            incidunt dolores consequatur maiores possimus explicabo vero ipsa
+            autem harum quos molestias, minus rerum animi maxime non nesciunt
+            quasi odit!
+          </p>
+          <div class="fans__comment-info">
+            <span>22.02.2222</span><span>RandomFanName</span>
+          </div>
+        </div>
+      </section>
+      <form class="container input-container">
+        <input
+          class="input__comment"
+          type="text"
+          placeholder="Write comment..."
+        />
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer>
+      <div class="container footer-container">
+        <ul class="soc-icons">
+          <li class="soc-icons-item">
+            <a
+              class="soc-icons-link"
+              href=""
+              target="_blank"
+              rel="noonpener noreferer"
+            >
+              <svg class="soc-icons-svg" width="20px" height="20px">
+                <use href="./css/img/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-icons-item">
+            <a
+              class="soc-icons-link"
+              href=""
+              target="_blank"
+              rel="noonpener noreferer"
+            >
+              <svg class="soc-icons-svg" width="20px" height="20px">
+                <use href="./css/img/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-icons-item">
+            <a
+              class="soc-icons-link"
+              href=""
+              target="_blank"
+              rel="noonpener noreferer"
+            >
+              <svg class="soc-icons-svg" width="20px" height="20px">
+                <use href="./css/img/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-icons-item">
+            <a
+              class="soc-icons-link"
+              href=""
+              target="_blank"
+              rel="noonpener noreferer"
+            >
+              <svg class="soc-icons-svg" width="20px" height="20px">
+                <use href="./css/img/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
